@@ -38,8 +38,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     namespace 'ua.naiksoftware.stompclientexample'
 }
@@ -57,4 +57,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation project(':lib')
+}
+
+task prepareKotlinBuildScriptModel {
+
 }
