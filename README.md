@@ -1,3 +1,6 @@
+# INFORMATION
+On this fork, we attempt to add unsubscribe functionality
+
 # STOMP protocol via WebSocket for Android
 
 [![Release](https://jitpack.io/v/NaikSoftware/StompProtocolAndroid.svg)](https://jitpack.io/#NaikSoftware/StompProtocolAndroid)
